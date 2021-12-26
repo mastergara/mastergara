@@ -33,12 +33,12 @@ Of the many topics I rattled off before, I think Rust might be the one I really 
 
 **The Book** has a LOT of good information in it, and it is clear that it is trying to hit a certain audience. However, I have read **The Book** numerous times, and it gets to be a real slog at a certain point. It starts off as many (most) of the "YOU TOO CAN LEARN USING THIS" documents do. It demonstrates the pedigree, who is involved, why you (dear reader) are going to rule the world after completion, and some general reasons as to "Why".
 
-Then installation, Hello World, package management, and then right into "Here is this code - it will do this. Do not worry about all the stuff we are about to explain away with some handwaving.
 
-Double colon? Psh - you should just know what those are and why.
-Semicolon? It is on some of the lines, but not others. Why? _handwave here_
-Parenthesis? Curly Braces? Bang? Just accept that these are things, and these things are needed. We'll get to explaining these (it doesn't)
-
+<p>Then installation, Hello World, package management, and then right into "Here is this code - it will do this. Do not worry about all the stuff we are about to explain away with some handwaving.
+<br />Double colon? Psh - you should just know what those are and why.
+<br />Semicolon? It is on some of the lines, but not others. Why?
+<br />Parenthesis? Curly Braces? Bang? Just accept that these are things, and these things are needed. We'll get to explaining these (it doesn't)
+</p>
 <sup> rant: the first jackwagon to use the term "Double Quote / Single Quote" instead of "Quotation Mark / Apostrophe" will be tossed into the drink. I have an equal amount of irritation when it comes to "Smart Quotes". On the Gripping Hand, the Grave Accent ` may be referred to as a backtick or backquote. </sup>
 
 I'm going to take this opportunity to try and break down what makes sense to me when it comes to what we have so far when it comes to structure.
@@ -52,19 +52,17 @@ These things are formatted in this way for a reason, so.... Why do we not have t
 ## Formatting and highlights
 
 These Purple (#c670f1) things! Keywords! How do I know that? I had to search, and I found [Keywords!](https://doc.rust-lang.org/reference/keywords.html) - I'm hopeful that I can continue to be successful in associating what is assumed to be known by the readers. And the next color we see is....
-Blue
-(#476af3) - Near as I can tell, this appears to be reserved for the name of the function itself. I am fully prepared to be wrong on this one, as I kept seeing it as main(), and only until we got to <b>3.3. Functions</b> do we see fn
-another_function()Red
-(#c8634d) looks like... Macros like
-println! as well as Structs (in
-String::new();
-the "String" part is a struct from std::string). And more!
+
+Blue (#476af3) - Near as I can tell, this appears to be reserved for the name of the function itself. I am fully prepared to be wrong on this one, as I kept seeing it as main(), and only until we got to <b>3.3. Functions</b> do we see fn
+another_function()
+
+Red (#c8634d) looks like... Macros like `println!` as well as Structs (in `String::new();` the "String" part is a struct from std::string). And more!
 
 - We soon see that integers are red as well (let apples = 5)
 - Also, Data Types (u32, i32, char, f32), which leads us to
 - numbers with decimals a.k.a Floating Points (3.0)
-- Oh, and then the values of the bool data types, true and false.
-- AH! And later we see #[derive(Debug)] in <b>5.2. An Example Program Using Structs</b>.
+- Oh, and then the values of the bool data types, true and false
+- AH! And later we see `#[derive(Debug)]` in **5.2. An Example Program Using Structs**
 
 It seems that it is the intention of **The Book** to have us seeing a lot of red.
 
@@ -72,7 +70,9 @@ It seems that it is the intention of **The Book** to have us seeing a lot of red
 
 I hope now that we have some things more clearly defined (Explicit is better than Implicit, right?) we can get back to what we are looking at here.
 **The Book** does a really good job of explaining the next few things. Really really. Prelude, entry point, and then onto a variable. It even lets us know that it will have a deeper dive into mutable/immutable variables in a later chapter.
+
 Wait. *What?*
+
 One of the core concepts of the language is brushed over in a single line:
 <img src="images/mrt02.png" title="highlight mine"/>
 
@@ -103,9 +103,10 @@ And I think I have hit my major point here. This is the gap.
 
 
 I would like Rust to be accessible to everyone. Why is it that by Chapter 2 of The Book, we have hit so much handwaving? I am not expecting Rust to be a perfect language, and I am not expecting their official documentation to be perfect either. What I am seeking here is a good means for that gap to be traversed.
+
 Be CLEAR as to what is needed for humans to be successful in going through **The Book.**
 
-<i>(I'm still going to continue working my way through the book, again, as I continue my thoughts in this irreverent critique style)</i>
+*(I'm still going to continue working my way through the book, again, as I continue my thoughts in this irreverent critique style)*
 
 <sub>Next update: TBD</sub>
 
