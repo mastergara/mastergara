@@ -51,10 +51,9 @@ These things are formatted in this way for a reason, so.... Why do we not have t
 
 ## Formatting and highlights
 
-These Purple (#c670f1) things! Keywords! How do I know that? I had to search, and I found [Keywords!](https://doc.rust-lang.org/reference/keywords.html) - I'm hopeful that I can continue to be successful in associating what is assumed to be known by the readers. And the next color we see is....
+These Purple (#c670f1) things: Keywords! How do I know that? I had to search, and I found [Keywords](https://doc.rust-lang.org/reference/keywords.html) - I'm hopeful that I can continue to be successful in associating what is assumed to be known by the readers. And the next color we see is...
 
-Blue (#476af3) - Near as I can tell, this appears to be reserved for the name of the function itself. I am fully prepared to be wrong on this one, as I kept seeing it as main(), and only until we got to <b>3.3. Functions</b> do we see fn
-another_function()
+Blue (#476af3) - Near as I can tell, this appears to be reserved for the name of the function itself. I am fully prepared to be wrong on this one, as I kept seeing it as `main()`, and only until we got to **3.3. Functions** do we see `fn another_function()`
 
 Red (#c8634d) looks like... Macros like `println!` as well as Structs (in `String::new();` the "String" part is a struct from std::string). And more!
 
